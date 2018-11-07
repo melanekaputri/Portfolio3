@@ -1,0 +1,145 @@
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffe2ffeb"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.asus.projectakhirmelanekaputri.DataMahasiswaActivity">
+
+    <TextView
+        android:id="@+id/txtDataMhs"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="DATA MAHASISWA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TableLayout
+        android:id="@+id/tabelMhs"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/txtDataMhs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TableRow>
+            <TextView
+                android:id="@+id/txtNama"
+                android:text="Nama "
+                android:textSize="18dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/editNama"
+                android:layout_marginLeft="5dp"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/txtNobp"
+                android:text="NO BP"
+                android:textSize="18dp"
+                android:layout_marginTop="25dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/editNobp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="20dp"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/txtJurusan"
+                android:text="Jurusan"
+                android:textSize="18dp"
+                android:layout_marginTop="25dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/editJurusan"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="20dp"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/txtKelas"
+                android:text="Kelas"
+                android:textSize="18dp"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </TableRow>
+    </TableLayout>
+
+    <Spinner
+        android:id="@+id/spinerKelas"
+        android:layout_below="@id/tabelMhs"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </Spinner>
+
+    <TextView
+        android:id="@+id/txtProdi"
+        android:text="Program Studi"
+        android:textSize="18dp"
+        android:layout_below="@id/spinerKelas"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+     <RadioGroup
+         android:id="@+id/radioGroup"
+         android:layout_below="@id/txtProdi"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"  >
+         <RadioButton
+             android:id="@+id/rbTK"
+             android:text="Teknik Komputer"
+             android:textSize="18dp"
+             android:layout_marginTop="10dp"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"/>
+         <RadioButton
+             android:id="@+id/rbMI"
+             android:text="Manajemen Informatika"
+             android:textSize="18dp"
+             android:layout_marginTop="10dp"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"/>
+         <RadioButton
+             android:id="@+id/rbRPL"
+             android:text="Rekayasa Perangkat Lunak"
+             android:textSize="18dp"
+             android:layout_marginTop="10dp"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"/>
+         </RadioGroup>
+
+    <Button
+        android:id="@+id/btnSubmitData"
+        android:text="Submit Data"
+        android:layout_below="@+id/radioGroup"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>
+</ScrollView>

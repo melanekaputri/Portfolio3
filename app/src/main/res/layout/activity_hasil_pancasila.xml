@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="#ffe2ffeb"
+    tools:context="com.example.asus.projectakhirmelanekaputri.HasilPancasilaActivity">
+
+    <TextView
+        android:id="@+id/txtB"
+        android:text="\tHASIL PENGISIAN DATA\nMATAKULIAH PANCASILA"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textColor="#ff1c22ff"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/txtHasilPanca"
+        android:textSize="18dp"
+        android:layout_below="@id/txtB"
+        android:layout_marginTop="20dp"
+        android:textColor="#f000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btnHomePanca"
+        android:text="HOME"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/txtHasilPanca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnListPanca"
+        android:text="LIST MATAKULIAH"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/btnHomePanca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

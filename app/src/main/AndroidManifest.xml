@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.asus.projectakhirmelanekaputri" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ekaa"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".SplashScreenActivity"
+            android:label="@string/title_activity_splash_screen"
+            android:theme="@style/AppTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".ListMatakuliahActivity"
+            android:label="@string/title_activity_list_matakuliah" >
+        </activity>
+        <activity
+            android:name=".DataMahasiswaActivity"
+            android:label="@string/title_activity_data_mahasiswa" >
+        </activity>
+        <activity
+            android:name=".HasilActivity"
+            android:label="@string/title_activity_hasil" >
+        </activity>
+        <activity
+            android:name=".MikroprosesorActivity"
+            android:label="@string/title_activity_mikroprosesor" >
+        </activity>
+        <activity
+            android:name=".PancasilaActivity"
+            android:label="@string/title_activity_pancasila" >
+        </activity>
+        <activity
+            android:name=".PemogramanMobileActivity"
+            android:label="@string/title_activity_pemograman_mobile" >
+        </activity>
+        <activity
+            android:name=".KeamananKomputerJaringanActivity"
+            android:label="@string/title_activity_keamanan_komputer_jaringan" >
+        </activity>
+        <activity
+            android:name=".PemogramanClientServerActivity"
+            android:label="@string/title_activity_pemograman_client_server" >
+        </activity>
+        <activity
+            android:name=".SistemTerdistribusiActivity"
+            android:label="@string/title_activity_sistem_terdistribusi" >
+        </activity>
+        <activity
+            android:name=".AdministrasiSistemActivity"
+            android:label="@string/title_activity_administrasi_sistem" >
+        </activity>
+        <activity
+            android:name=".SwitchingNirkabelActivity"
+            android:label="@string/title_activity_switching_nirkabel" >
+        </activity>
+        <activity
+            android:name=".HasilAdministrasiSistemAcitivity"
+            android:label="@string/title_activity_hasil_administrasi_sistem_acitivity" >
+        </activity>
+        <activity
+            android:name=".HasilPancasilaActivity"
+            android:label="@string/title_activity_hasil_pancasila" >
+        </activity>
+        <activity
+            android:name=".HasilKeamananActivity"
+            android:label="@string/title_activity_hasil_keamanan" >
+        </activity>
+        <activity
+            android:name=".HasilMikroprosesorActivity"
+            android:label="@string/title_activity_hasil_mikroprosesor" >
+        </activity>
+        <activity
+            android:name=".HasilMobileActivity"
+            android:label="@string/title_activity_hasil_mobile" >
+        </activity>
+        <activity
+            android:name=".HasilPcsActivity"
+            android:label="@string/title_activity_hasil_pcs" >
+        </activity>
+        <activity
+            android:name=".HasilSisterActivity"
+            android:label="@string/title_activity_hasil_sister" >
+        </activity>
+        <activity
+            android:name=".HasilSwitchingActivity"
+            android:label="@string/title_activity_hasil_switching" >
+        </activity>
+    </application>
+
+</manifest>

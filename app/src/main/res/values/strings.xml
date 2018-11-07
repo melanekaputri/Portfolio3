@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ProjectAkhirMelanekaputri</string>
+    <string name="hello_world">PENGISIAN MATAKULIAH</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_list_matakuliah">ListMatakuliahActivity</string>
+    <string name="title_activity_data_mahasiswa">DataMahasiswaActivity</string>
+    <string name="title_activity_hasil">HasilActivity</string>
+    <string name="title_activity_mikroprosesor">MikroprosesorActivity</string>
+    <string name="title_activity_pancasila">PancasilaActivity</string>
+    <string name="title_activity_pemograman_mobile">PemogramanMobileActivity</string>
+    <string name="title_activity_keamanan_komputer_jaringan">KeamananKomputerJaringanActivity</string>
+    <string name="title_activity_pemograman_client_server">PemogramanClientServerActivity</string>
+    <string name="title_activity_sistem_terdistribusi">SistemTerdistribusiActivity</string>
+    <string name="title_activity_administrasi_sistem">AdministrasiSistemActivity</string>
+    <string name="title_activity_switching_nirkabel">SwitchingNirkabelActivity</string>
+    <string name="title_activity_splash_screen">SplashScreenActivity</string>
+    <string name="title_activity_hasil_admininstasi_sistem">HasilAdmininstasiSistem</string>
+    <string name="title_activity_hasil_administrasi_sistem_acitivity">HasilAdministrasiSistemAcitivity</string>
+    <string name="title_activity_hasil_pancasila">HasilPancasilaActivity</string>
+    <string name="title_activity_hasil_keamanan">HasilKeamananActivity</string>
+    <string name="title_activity_hasil_mikroprosesor">HasilMikroprosesorActivity</string>
+    <string name="title_activity_hasil_mobile">HasilMobileActivity</string>
+    <string name="title_activity_hasil_pcs">HasilPcsActivity</string>
+    <string name="title_activity_hasil_sister">HasilSisterActivity</string>
+    <string name="title_activity_hasil_switching">HasilSwitchingActivity</string>
+
+</resources>

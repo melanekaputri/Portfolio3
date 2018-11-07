@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="#ffe2ffeb"
+    tools:context="com.example.asus.projectakhirmelanekaputri.HasilMobileActivity">
+
+    <TextView
+        android:id="@+id/txtHsl"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="HASIL PENGISIAN DATA \nPEMOGRAMAN MOBILE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/txtHasilMobile"
+        android:textSize="18dp"
+        android:layout_below="@id/txtHsl"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnHomeMobile"
+        android:text="HOME"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/txtHasilMobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnListMobile"
+        android:text="LIST MATAKULIAH"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/btnHomeMobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
